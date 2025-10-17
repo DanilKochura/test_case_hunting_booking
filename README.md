@@ -46,3 +46,19 @@ php artisan db:seed
 
 ### Фильтры
 В идеале реализовать фильтр отдельным трейтом и обрабатывать там поочередно все поля, доступные для фитрации. Однако для задачи с единсственным полем достаточно и такой реализации.
+
+
+### Тесты
+Для примера прикреплюя скрины тестирования API через Postman
+
+## Получение всех гидов
+![_images-docs/no-filters.png](_images-docs/no-filters.png)
+
+## Получение всех (с фильтрами)
+![_images-docs/filters.png](_images-docs/filters.png)
+
+## Успешная бронь
+![_images-docs/success_book.png](_images-docs/success_book.png)
+
+## Ошибка валидации (для примера взял прошедшую дату)
+![_images-docs/validatiob.png](_images-docs/validatiob.png)
